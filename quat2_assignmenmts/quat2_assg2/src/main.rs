@@ -161,15 +161,6 @@ fn main(){
 //     println!("the function result is {}", get_closure(myclosure))
 // }
 
-// Q4. Mr. Asim wants to adopt children from Yateem khana. He wants to adopt those children only who
-// have the primary education and are at least bilingual. Mr. Allah Bakhsh is the head of Yateem Khana. He
-// is helping Mr Asim to make his visit successful.
-// He is showing him 2 children at a time by passing those 2 children(struct) in a function named adopt(). If
-// both of the children have both of the above mentioned qualities(traits), then Mr. Asim happily brings
-// them to their new home sweet home. How can you help Mr. Allah Bakhsh / Mr.Asim?
-
-
-
 
 ////////////////////////////////// QUESTION 3 ///////////////////////
 
@@ -209,6 +200,14 @@ fn main(){
 
 
 ///////////////////////  QUESTION NO 4 //////////////////////
+
+
+// Q4. Mr. Asim wants to adopt children from Yateem khana. He wants to adopt those children only who
+// have the primary education and are at least bilingual. Mr. Allah Bakhsh is the head of Yateem Khana. He
+// is helping Mr Asim to make his visit successful.
+// He is showing him 2 children at a time by passing those 2 children(struct) in a function named adopt(). If
+// both of the children have both of the above mentioned qualities(traits), then Mr. Asim happily brings
+// them to their new home sweet home. How can you help Mr. Allah Bakhsh / Mr.Asim?
 // use std::io;
 
 // struct Child{
