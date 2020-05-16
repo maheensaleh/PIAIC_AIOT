@@ -1,0 +1,68 @@
+gang of 4
+sap
+risc
+sisc
+---
+divide n conquer
+reduce n conquer
+
+----
+strong typed : datatypes are defined ; eg c# , java . they are tightly coupled and loosely cohesive
+
+low typed : datatypes not mention eg python javascript
+
+tightly coupled coupled lossly coupled
+loosly cohesion high cohesion
+
+----------
+oracle 
+solaris
+spark
+----------
+layered architecture
+monolithic
+modular
+microservices	 
+--------
+mvc
+-------------
+
+ignitor 
+laravel
+
+
+----------
+
+mobile app
+web app
+best native apps : work both on web and mobile
+
+
+-----
+rest apis
+kubernetes
+docker
+microervices
+monolithic
+
+
+piaic-iot:
+--------------------------------
+block on = makes sure that first this is executed then other is executed
+
+await : to convert an async function to sync
+
+join and await are executors 
+
+async sleep: task
+
+sync sleep : thread
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Robert C. Martin coined the term single responsibility principle which states “gather together those things that change for the same reason, and separate those things that change for different reasons.”
+
+In computing and systems design a loosely coupled system is one in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components. 
+
+It is a concept of system design and computing where every hardware and software components that are linked together in such manner that each component is dependent upon each other. 	
+
+Low Coupling
+How much do your different modules depend on each other?
+Modules should be as independent as possible from other modules, so that changes to module don’t heavily impact other modules.
+High coupling would mean that your module knows the way too much about the inner workings of other modules. Modules that know too much about other modules make changes hard to coordinate and make modules brittle. If Module A knows too much about Module B, changes to the internals of Module B may break functionality in Module A.
+By aiming for low coupling, you can easily make changes to the internals of modules without worrying about their impact on other modules in the system. 
+
+Cohesion often refers to how the elements of a module belong together. Related code should be close to each other to make it highly cohesive.
+Easy to maintain code usually has high cohesion. The elements within the module are directly related to the functionality that module is meant to provide. By keeping high cohesion within our code, we end up trying DRY code and reduce duplication of knowledge in our modules. We can easily design, write, and test our code since the code for a module is all located together and works together.
+Low cohesion would mean that the code that makes up some functionality is spread out all over your code-base. Not only is it hard to discover what code is related to your module, it is difficult to jump between different modules and keep track of all the code in your head.
+
+LOW COUPLED - HIGH COHESIVE MEANS GOOD MOUDULARITY WITHIN THE CODE WHICH EASES THE TESTING, DEBUGGING OF AND UPDATING OF CODE.
+ARHICTECTURE OF MICRO SEVICES IS BASED ON LOW COUPLING AND HIGH COHESION AND REDUCING DEPENCY OF MODULES UPON EACH OTHER SO ONE CAN MANTAIN/HANDLE THE APPLICATION AND ITS SERVICE EASILY. -- no deployement / testing issues, no scalability issues
+
+Monolith means composed all in one piece. The Monolithic application describes a single-tiered software application in which different components combined into a single program from a single platform.
+
+OPPOSITE TO MICROSERVICES IS MONOLITHIC ARCHITECTURE IN WHICH ALL MODULES ARE INREGERATED INTO EACH OTHER. THE APPLICATION BEHAVES AS A SINGLE UNIT AND MODULES ARE HIGHLY DEPENDENT UPON EACH OTHER I.E MONOLITHIC IS BASED ON TIGHLY COUPLED LOW COHESIVE SYSTEM. it has deployment testing issues. has scalability issues
+
+
+Another advantage which a microservices architecture brings to the table is making it easier to choose the technology stack (programming languages, databases, etc.) which is best suited for the required functionality (service) instead of being required to take a more standardized, one-size-fits-all approach
