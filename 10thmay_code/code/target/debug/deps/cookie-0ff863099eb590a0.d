@@ -1,0 +1,12 @@
+/home/maheensaleh/Desktop/IOT_Q3/10thmay_code/code/target/debug/deps/cookie-0ff863099eb590a0.rmeta: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/builder.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/parse.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/jar.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/delta.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/draft.rs
+
+/home/maheensaleh/Desktop/IOT_Q3/10thmay_code/code/target/debug/deps/libcookie-0ff863099eb590a0.rlib: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/builder.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/parse.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/jar.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/delta.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/draft.rs
+
+/home/maheensaleh/Desktop/IOT_Q3/10thmay_code/code/target/debug/deps/cookie-0ff863099eb590a0.d: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/builder.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/parse.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/jar.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/delta.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/draft.rs
+
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/lib.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/builder.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/parse.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/jar.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/delta.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.12.0/src/draft.rs:
