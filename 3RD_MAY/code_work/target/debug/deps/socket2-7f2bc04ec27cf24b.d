@@ -1,0 +1,11 @@
+/home/maheensaleh/Desktop/IOT_Q3/3RD_MAY/code_work/target/debug/deps/socket2-7f2bc04ec27cf24b.rmeta: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/sockaddr.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/socket.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/utils.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/sys/unix.rs
+
+/home/maheensaleh/Desktop/IOT_Q3/3RD_MAY/code_work/target/debug/deps/libsocket2-7f2bc04ec27cf24b.rlib: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/sockaddr.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/socket.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/utils.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/sys/unix.rs
+
+/home/maheensaleh/Desktop/IOT_Q3/3RD_MAY/code_work/target/debug/deps/socket2-7f2bc04ec27cf24b.d: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/sockaddr.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/socket.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/utils.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/sys/unix.rs
+
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/lib.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/sockaddr.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/socket.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/utils.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/socket2-0.3.12/src/sys/unix.rs:

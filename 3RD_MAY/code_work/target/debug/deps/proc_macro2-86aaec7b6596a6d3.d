@@ -1,0 +1,11 @@
+/home/maheensaleh/Desktop/IOT_Q3/3RD_MAY/code_work/target/debug/deps/proc_macro2-86aaec7b6596a6d3.rmeta: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/strnom.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/detection.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/fallback.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/wrapper.rs
+
+/home/maheensaleh/Desktop/IOT_Q3/3RD_MAY/code_work/target/debug/deps/libproc_macro2-86aaec7b6596a6d3.rlib: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/strnom.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/detection.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/fallback.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/wrapper.rs
+
+/home/maheensaleh/Desktop/IOT_Q3/3RD_MAY/code_work/target/debug/deps/proc_macro2-86aaec7b6596a6d3.d: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/lib.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/strnom.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/detection.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/fallback.rs /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/wrapper.rs
+
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/lib.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/strnom.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/detection.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/fallback.rs:
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.12/src/wrapper.rs:

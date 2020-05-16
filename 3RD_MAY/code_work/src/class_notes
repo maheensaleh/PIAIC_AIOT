@@ -1,0 +1,22 @@
+
+
+Request:
+=======
+
+
+
+Client-server model:
+===================
+
+server - which serves a service
+
+Client - which asks for a service/ uses a service
+
+our server can act as a client also when it asks for  a service form another server
+
+response time depends on the size of requested data
+
+DNS server - domain name server
+
+server call in 2 ways : thriugh domain name and thru ip aaddress
+            
