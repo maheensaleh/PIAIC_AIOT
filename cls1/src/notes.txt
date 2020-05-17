@@ -1,0 +1,41 @@
+generics: 
+-used to handle the duplication of concepts.
+-can  be used in struts, enums a swell as finctios
+-it is actually a place holder for any data type
+-see monomorphization from book
+
+//enum generic??//ask sir ukasha
+//orphan rule in traits implemetation//no implementations on rust types
+
+TRAITS:
+
+-A trait tells the Rust compiler about functionality a 
+particular type has and can share with other types. 
+
+-A type’s behavior consists of the methods we can call 
+on that type. Different types share the same behavior if we can 
+call the same methods on all of those types. 
+
+-first we declarea  trait and mention the required
+functions/behaviors signatures in that trait's scope
+
+-One restriction to note with trait implementations is that
+ we can implement a trait on a type only if either the trait 
+or the type is local to our crate
+
+-But we can’t implement external traits on external types.
+For example, we can’t implement the Display trait on Vec<T>
+within our aggregator crate, because Display and Vec<T> are
+defined in the standard library and aren’t local to our aggregator crate
+
+-. This restriction is part of a property of programs called coherence,
+and more specifically the orphan rule, so named because the parent type 
+is not present. 
+
+TRAIT AS PARAMETERS:
+-a function may be restricted to accept those types as parameters whivh
+have a particular trait implemented on them
+by using impl "traitname"
+
+TRAIT BOUND SYNTAX:
+equivalent to TRAIT AS PARAMETER but different syntax

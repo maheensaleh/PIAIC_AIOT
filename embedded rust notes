@@ -1,0 +1,35 @@
+
+no std in embedded coing cz std crate want an os which is absent in microcontroller, inplace of it ,we use core crate which does not reqiere any os an druns directly on hardware
+
+no main as no std, in its place, we have entry attribute associated to a function and that function works as the main 
+
+entry function aslways has this sisgnature " fn name_of_func() -> !" ! means no return value // it means it will never stop or end//means this function has no terminating point
+
+Cross - compliation : compiling code on one machine for another target machine
+
+gdbserver is a computer program that makes it possible to remotely debug other programs.
+
+ITM - Instrumentation Trace Protocol , its unidirectional communication passaage i.e only form controller to host(laptop)
+
+ITM onlt works when swo and pb3 are shorted
+
+USART - universal synchronous asynchronous receive transmirt
+
+
+
+
+
+---------- ques --------
+
+
+what is this tmp and why same tmp
+
+------- do this / confusions --------
+
+
+run 2 codes , one with loop{} at the end and another without it
+
+do debugging gdb commands prac
+
+
+

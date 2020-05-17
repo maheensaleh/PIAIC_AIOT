@@ -1,0 +1,47 @@
+--------------------------------Part 1 -------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+types of vcs:
+
+vss- microsofts vcs, now no tused, for small team, only one programmer at a time on a file
+
+svn - apache subversion: by apache, for bigger projects, no file locking, cnetral server has main data, full project data not for all team member at every time
+
+git - distributed, any user can be used as a server in team work
+
+Centrtalized(full working copy at main server only) and Distributed(full working copy for every user) are 2 types of working system
+
+demerit of centralized: internet for commiting
+
+distributed not rely on centrl server: loacally we can commit changes and also push the changes on the main server
+
+GIT is a distributed vcs
+
+Clone: first download from server
+
+pull:downloading further from server, taking from central server
+
+push: uploading changes, sending data on central server
+
+--locally commits are saved in dvcs but not in cvcs
+
+advantages of dvcs:
+fast operations without the need of internet except pushing and pulling, means all commits can be recorded loacally offline
+
+--------------------------------Part 2 -------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+repositoiry is a kind of database where the files, commits, metadata is stored. it has a hidden folder .git where commits are saved
+
+current git folder is wroking directroy
+
+commit hasha re unique identifiers for every commit
+
+git reset will unstage the files
+
+git reset --hard will unstage as well as uncommit 
+
+
+
+

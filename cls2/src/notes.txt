@@ -1,0 +1,8 @@
+LIFETIMES:
+ 
+lifetimes are for references
+- borrow checker checks: a refrence is valid or nor
+                        a refence wull remain valid in future or not
+
+
+//why borrow error in closure
