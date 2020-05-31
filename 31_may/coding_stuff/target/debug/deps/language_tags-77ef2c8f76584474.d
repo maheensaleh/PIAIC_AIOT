@@ -1,0 +1,7 @@
+/home/maheensaleh/Desktop/quart3/31_may/coding_stuff/target/debug/deps/language_tags-77ef2c8f76584474.rmeta: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/language-tags-0.2.2/src/lib.rs
+
+/home/maheensaleh/Desktop/quart3/31_may/coding_stuff/target/debug/deps/liblanguage_tags-77ef2c8f76584474.rlib: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/language-tags-0.2.2/src/lib.rs
+
+/home/maheensaleh/Desktop/quart3/31_may/coding_stuff/target/debug/deps/language_tags-77ef2c8f76584474.d: /home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/language-tags-0.2.2/src/lib.rs
+
+/home/maheensaleh/.cargo/registry/src/github.com-1ecc6299db9ec823/language-tags-0.2.2/src/lib.rs:

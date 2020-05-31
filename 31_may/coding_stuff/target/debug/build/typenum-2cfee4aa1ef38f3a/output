@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/maheensaleh/Desktop/quart3/31_may/coding_stuff/target/debug/build/typenum-2cfee4aa1ef38f3a/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/maheensaleh/Desktop/quart3/31_may/coding_stuff/target/debug/build/typenum-2cfee4aa1ef38f3a/out/op.rs
