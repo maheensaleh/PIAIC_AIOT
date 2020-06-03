@@ -11,21 +11,31 @@ extern crate rustc_serialize;
 use rustc_serialize::json::Json;
 // use std::io::Read;
 
-
-
-
-
-#[get("/test")]
-fn hello2()->String{
-    "hello2".to_string()
+#[get("/<number>")]
+fn page2(number: i32) -> String {
+    let added = number + 5;
+    format!("hello {}",added)
+    
 }
 
+
+
+// #[get("/page2")]
+// fn page2() -> Html<&'static str> {
+//    Html(r"
+//    <h1>Hello form page 2</h1>"
+// )
+
+// }
 
 
 #[get("/")]
 fn index() -> Html<&'static str> {
    Html(r"
-   <h1>Hello form page 1</h1>"
+   <h1>Hello form page 1
+   </h1>
+   
+   "
 )
 
 }
@@ -33,7 +43,7 @@ fn index() -> Html<&'static str> {
 
 fn main(){
 
-    rocket::ignite().mount("/",routes![index]).launch();
-    // rocket::ignite().mount("/test",routes![hello2]).launch();
+    rocket::ignite().mount("/",routes![index,page2]).launch();
+    // rocket::ignite().mount("/page2",routes![page2]).launch();
 
 }
