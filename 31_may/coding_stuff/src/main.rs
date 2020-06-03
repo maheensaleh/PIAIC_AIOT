@@ -57,7 +57,7 @@ fn hello()->String{
 
         let result = format!("The temperature of Karachi is : {} ",json.find_path(&["main"]).unwrap());
 
-        result
+        "result".to_string()
 
 }
 
