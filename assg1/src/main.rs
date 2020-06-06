@@ -10,40 +10,62 @@ use std::path::Path;
 extern crate rustc_serialize;
 use rustc_serialize::json::Json;
 // use std::io::Read;
+use rocket::response::content;
+
 
 #[get("/?<n>")]
-fn page2(n: i32) -> String {
-    println!("working");
+fn page2(n: i32) -> content::Html<String> {
+
     let added = n + 5;
-    format!("hello {}",added)
+
+    let colors = ["#fc5826","#5ef711","#f50f91","#0f35f5","#f5de0f"];
+    let mut a = 0;
+    if (added<0){
+        a = -added;
+    }
+    else{
+        a=added;
+    }
+    let ind = a%5;
+    println!("{}",ind);
+    let mut color = colors[0]; 
+    if (ind ==0){
+        color = colors[0];
+    }
+    else if (ind==1){
+        color = colors[1];
+    }
+    else if (ind==2){
+        color = colors[2];
+    }
+    else if (ind==3){
+        color = colors[3];
+    }
+    else{
+        color = colors[4]
+    }
+    let res = format!(r#"
+    <title>Home</title>
+    <body style="background : {}">
+    <div align="center" style =  " background : #42b0f5;margin-right :20% ; margin-left : 20% ;padding: 4%; margin-top:5vw ">
+    <h1>Welcome</h1>
+    <h3>Result : {} </h3>
+
+    <form " action="/" method="get">
+    <h2> Enter a number</h2>
+    <div><button  style = "margin-top:5% ; font-size: 20" type="submit">Back</button></div>
+    </form>
+    <div>
+    <body>
+"#,color,added);
+    
+content::Html(res)
 
     
 }
 
 
 
-// #[get("/page2")]
-// fn page2() -> Html<&'static str> {
-//    Html(r"
-//    <h1>Hello form page 2</h1>"
-// )
-
-// }
-
-
-// #[get("/")]
-// fn index() -> Html<&'static str> {
-//     Html(r#"
-//         <title>Homr</title>
-//         <form action="/page2" method="get">
-//             <input type="text" name="number" />
-//             <button type="submit">Go</button>
-//         </form>
-//     "#)
-
-
-
-use rocket::response::content;
 
 #[get("/")]
 fn index() -> content::Html<&'static str> {
