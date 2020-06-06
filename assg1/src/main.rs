@@ -11,10 +11,12 @@ extern crate rustc_serialize;
 use rustc_serialize::json::Json;
 // use std::io::Read;
 
-#[get("/<number>")]
-fn page2(number: i32) -> String {
-    let added = number + 5;
+#[get("/?<n>")]
+fn page2(n: i32) -> String {
+    println!("working");
+    let added = n + 5;
     format!("hello {}",added)
+
     
 }
 
@@ -29,14 +31,37 @@ fn page2(number: i32) -> String {
 // }
 
 
+// #[get("/")]
+// fn index() -> Html<&'static str> {
+//     Html(r#"
+//         <title>Homr</title>
+//         <form action="/page2" method="get">
+//             <input type="text" name="number" />
+//             <button type="submit">Go</button>
+//         </form>
+//     "#)
+
+
+
+use rocket::response::content;
+
 #[get("/")]
-fn index() -> Html<&'static str> {
-   Html(r"
-   <h1>Hello form page 1
-   </h1>
-   
-   "
-)
+fn index() -> content::Html<&'static str> {
+    content::Html(r#"
+        <title>Home</title>
+        <body>
+        <div align="center" style =  " background : #42b0f5;margin-right :20% ; margin-left : 20% ;padding: 4%; margin-top:5vw ">
+        <h1>Welcome</h1>
+        <h3>Check out the change in background color for each number !</h3>
+
+        <form " action="/" method="get">
+        <h2> Enter a number</h2>
+        <div><input style = "margin-top:5% ; width : 20%; height :10% ;text-align:center ;font-size:7vw" type="text" name="n" /></div>
+        <div><button  style = "margin-top:5% ; font-size: 20" type="submit">Next Page</button></div>
+        </form>
+        <div>
+        <body>
+    "#)
 
 }
 
