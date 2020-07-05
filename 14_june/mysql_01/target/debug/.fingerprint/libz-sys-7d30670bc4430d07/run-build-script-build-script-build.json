@@ -1,0 +1,1 @@
+{"rustc":16196640963672464605,"features":"","target":0,"profile":0,"path":0,"deps":[[13276218065387473239,"build_script_build",false,10135995370136515308]],"local":[{"RerunIfChanged":{"output":"debug/build/libz-sys-7d30670bc4430d07/output","paths":["build.rs"]}},{"RerunIfEnvChanged":{"var":"LIBZ_SYS_STATIC","val":null}}],"rustflags":[],"metadata":0}
